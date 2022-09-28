@@ -1,0 +1,53 @@
+## Niebezpiecznik
+### odc. 52
+#hotel 
+- Płać kartą żeby mieć opcje chargeback
+- **Chargeback (z ang. _obciążenie zwrotne_)** to procedura reklamacyjna inicjowana przez bank po otrzymaniu zgłoszenia od klienta korzystającego z karty płatniczej. Pozwala na dochodzenie w jego imieniu roszczeń wobec podmiotu, który nie wywiązał się należycie (w całości lub w części) z realizacji operacji opłaconej przez posiadacza
+- Możesz rezerwować hotel na inne dane osobowe 
+- Nie dawaj zaczytywać danych w hotelach. Możesz podać kartę płetwonurka, albo książeczkę wojskową, gdzie nie ma danych typu PESEL czy numer dowodu
+- Karta do pokoju może ci się rozmagnesowac jeśli trzymasz ją z telefonem 
+- Odłącz urządzenia elektroniczne w pokoju hotelowym, bo mogą mieć mikrofony i kamery 
+- W azjatyckich krajach (przede wszystkim) mogą być kamery wewnątrz pryszniców 
+- Nie miej czarnej walizki, unikatowa jest trudniejsza do kradzieży
+- W nowych urządeniach Apple klucz jest usuwany z pamięci, więc wystarczy się wylogować żeby zaszyfrować dane 
+- Pełne szyfrowanie dysku praktycznie nie spowalnia na codzien, chyba że kopiesz jakieś kryptowaluty, ale tak to jest nieoczuwalen
+- Na macu możesz zaszyfrować wstecznie dane, które już się znajdują, a na Linuxie chyba jest to problem
+- Obsługa hotelowa otwiera bez problemu sejf hotelowy i takie sejfy mają hasła serwisowe 
+- Włamania do hotelu mogą być przez okno i przez balkon 
+- Można przewiercić drzwi i drutem otworzyć pokój klamką od wewnątrz, bo pokoje hotelowe można otworzyć klamką od wewnątrz
+- Jest coś takiego jak kajdanki na klamki na okna 
+- Okna hotelowe powyżej któregoś piętra są często zablokowane 
+- Okna hotelowe można otworzyć wytrychem a czasem nawet nożem 
+- Drzwi hotelowe można otworzyć tzw. wędką wsuwaną pod drzwi. Warto sprawdzać czy da się coś wsunąć pod drzwi (żeby wsunąć korespondencję) 
+- Nie warto blokować pokoju bo i tak wchodzi tam obsługa hotelowa sprzątać. Najlepiej liczyć się, że to co tam jest może być otworzone i przeczytane, jeśli nie jest szyfrowane 
+- Czy ufasz hotelowi? 
+- Housarlock blokada do drzwi, albo jakiś rygiel pod drzwi, żeby ktoś nie wszedł kiedy się kąpiesz 
+- Co pare dni obsługa hotelu wchodzi niezależnie czy masz wywieszona jakaś kartkę czy nie
+- Można zostawić jakieś urządzenie monitorujące jak wychodzimy z hotelu. Nie możesz publikować takich nagrań. 
+- Możesz zostawić pokruszone czipsy na laptopie i zrobić zdjęcie żeby zobaczyć czy laptop był ruszany. Najlepiej żeby laptop był w sejfie, bo tak to sprzątaczka mogła to zrobić. - można też malować śrubki lakierem do paznokci 
+- Pendrive powinieneś mieć szyfrowaną partycję 
+- Zgubienie pendrive to najczęstsza przyczyna wycieku danych 
+- Pendrive można zaszyfrować z użyciem veracrypt, wtedy mozesz odtworzyć na każdym systemie
+- Nie korzystaj z hotelowych komputerów 
+- Hotelowa sieć jest bezpieczna bo i tak wszystko jest po tls. VPN sprawia, że hotel nie wie jakie strony odwiedzasz, ale dostawca VPN'a wie.
+- Hotelowa sieć może nie być bezpieczna jeśli, nie ma izolacji klientów 
+- Warto randomizowac adresy MAC żeby unikać trackowania
+- VPN może się przydać do tego żeby można było wejść po ssh do vpsa. Ewentualnie można wystawić SSH na porcie 443 jeśli nie ma DPI na firewallu. 
+- Można skanować podsieć do której trafiasz w hotelu żeby zobaczyć czy nie ma kamer - iPhony da się trackowac nawet jak są wyłączone (??) 
+- air taga można nalepic na rower - Apple może wysyłać powiadomienia jeśli zapomniałeś jakiegoś sprzętu.
+- można zespoofowac numer na pewnie jakiś służb i w ten sposób np. poprosić o otworzenie szlabanu 
+- zdradzanie swojej pozycji poprzez wstawianie zdjęć może byc niebzepieczne. Może oznaczać, że nie ma nas w domu. Lepiej poczekać parę dni.
+- Automatyczna geolokalizacja na sprzetach istnieje i trzeba brac to pod uwage postujac cos na socialach
+
+### odc. 50 
+- practical doomsday książka 
+- hacktywizm - jeśli ddosujesz jakieś serwery rosyjskie, to jeśli odetną na poziomie bgp to obciazasz tylko własną infrastrukturę 
+- zamiast strony banku lepiej ddosowac jakieś API bankowe albo API na styku jakiś integracji, bo wywalenie strony nie sprawia że wywalisz bank 
+- nawet jesli dowiesz wrogi interfejs wystawiony na świat dotyczący gazu albo wody i wyłączysz coś to istnieją dodatkowe mechanizmy bezpieczeństwa.
+- często wystawione rzeczy to honeypoty, więc należy uważać 
+- nieodpowiedzialne włamania mogą doprowadzić do zaorania systemu na którym wcześniej siedziały jakieś służby z zainstalowanym malwarem ( brak koordynacji jest problemem, a koordynacja ludzi niezwiązanych ze sobą jest trudna)
+- Ukraińcy włamali się na stronę z newsami ruskimi i podali informacje o stratach rosyjskich, po czym ściągnęli szybko te informacje udając cenzurę tego newsa i był lepszy impact 
+- tineye 
+- ai wyszukiwarka zdjęć - jeśli zdjęcie którym wyszukujesz zostało zmodyfikowane to możesz je pociąć i zmieniać warstwy żeby znaleźć na tyle podobne do oryginału że ai to znajdzie 
+- w atakach ransomware są często wykorzystywani inside ludzie 
+- baofeng
