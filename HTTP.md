@@ -1,4 +1,4 @@
-## 1. Podstawy HTTP
+## HTTP
 
 - ### Wersje HTTP
 #http_versions
@@ -141,3 +141,9 @@ Tak zwany adres URL najczęściej kojarzony jest z adresami stron [WWW](https://
 
 
 ![[mcTKf.jpg]]
+
+### Jak HTTP ma pamiętać informacje skoro jest bezstanowe?
+
+- ciasteczka
+- pewnie też JWT
+

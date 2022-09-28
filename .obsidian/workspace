@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTTP.md",
+            "file": "Cookies.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#naglowki_http",
+                "query": "tag:#niebezpiecznik",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP.md",
+                "file": "Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP.md",
+                "file": "Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP.md"
+                "file": "Cookies.md"
               }
             }
           }
@@ -129,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "85ae91bf2eb49156",
+  "active": "f1b104ae3f638b02",
   "lastOpenFiles": [
+    "HTTP.md",
+    "Cookies.md",
+    "Niebezpiecznik - Podcast.md",
     "QUIC.md",
     "obsluga obsidiana.md",
-    "Niebezpiecznik.md",
     "photos/quic-fig2.png",
-    "HTTP.md",
     "photos/Pasted image 20220927182020.png",
     "photos/Pasted image 20220927174335.png",
     "photos/Pasted image 20220926173913.png",
-    "photos/mcTKf.jpg",
-    "photos/Pasted image 20220927193640.png"
+    "photos/mcTKf.jpg"
   ]
 }

@@ -1,0 +1,80 @@
+## Na podsłuchu
+### odc. 52 - nocowanie w hotelu
+#hotel 
+- Płać kartą żeby mieć opcje chargeback
+- **Chargeback (z ang. _obciążenie zwrotne_)** to procedura reklamacyjna inicjowana przez bank po otrzymaniu zgłoszenia od klienta korzystającego z karty płatniczej. Pozwala na dochodzenie w jego imieniu roszczeń wobec podmiotu, który nie wywiązał się należycie (w całości lub w części) z realizacji operacji opłaconej przez posiadacza
+- Możesz rezerwować hotel na inne dane osobowe 
+- Nie dawaj zaczytywać danych w hotelach. Możesz podać kartę płetwonurka, albo książeczkę wojskową, gdzie nie ma danych typu PESEL czy numer dowodu
+- Karta do pokoju może ci się rozmagnesować jeśli trzymasz ją z telefonem #card
+- Odłącz urządzenia elektroniczne w pokoju hotelowym, bo mogą mieć mikrofony i kamery 
+- W azjatyckich krajach (przede wszystkim) mogą być kamery wewnątrz pryszniców 
+- Nie miej czarnej walizki, unikatowa jest trudniejsza do kradzieży
+- W nowych urządzeniach Apple klucz jest usuwany z pamięci, więc wystarczy się wylogować żeby zaszyfrować dane #iphone #private_key
+- Pełne szyfrowanie dysku praktycznie nie spowalnia na co dzień, chyba że kopiesz jakieś kryptowaluty, ale tak to jest nieodczuwalne
+- Na MACu możesz zaszyfrować wstecznie dane, które już się znajdują, a na Linuxie chyba jest to problem
+- Obsługa hotelowa otwiera bez problemu sejf hotelowy i takie sejfy mają hasła serwisowe 
+- Włamania do hotelu mogą być przez okno i przez balkon 
+- Można przewiercić drzwi i drutem otworzyć pokój klamką od wewnątrz, bo pokoje hotelowe można otworzyć klamką od wewnątrz
+- Jest coś takiego jak kajdanki na klamki na okna 
+- Okna hotelowe powyżej któregoś piętra są często zablokowane 
+- Okna hotelowe można otworzyć wytrychem a czasem nawet nożem 
+- Drzwi hotelowe można otworzyć tzw. wędką wsuwaną pod drzwi. Warto sprawdzać czy da się coś wsunąć pod drzwi (żeby wsunąć korespondencję) 
+- Nie warto blokować pokoju bo i tak wchodzi tam obsługa hotelowa sprzątać. Najlepiej liczyć się, że to co tam jest może być otworzone i przeczytane, jeśli nie jest szyfrowane 
+- Czy ufasz hotelowi? 
+- Housarlock blokada do drzwi, albo jakiś rygiel pod drzwi, żeby ktoś nie wszedł kiedy się kąpiesz 
+- Co kilka dni obsługa hotelu wchodzi niezależnie czy masz wywieszona jakaś kartkę czy nie, żeby sprawdzić czy nikt nie umarł
+- Można zostawić jakieś urządzenie monitorujące jak wychodzimy z hotelu. Nie możesz publikować takich nagrań. 
+- Możesz zostawić pokruszone czipsy na laptopie i zrobić zdjęcie żeby zobaczyć czy laptop był ruszany. Najlepiej żeby laptop był w sejfie, bo tak to sprzątaczka mogła to zrobić. - można też malować śrubki lakierem do paznokci 
+- Pendrive powinien mieć szyfrowaną partycję #encryption
+- Zgubienie pendrive to najczęstsza przyczyna wycieku danych #data_leak
+- Pendrive można zaszyfrować z użyciem Veracrypt, wtedy możesz odtworzyć na każdym systemie #encryption 
+- Nie korzystaj z hotelowych komputerów 
+- Hotelowa sieć jest bezpieczna bo i tak wszystko jest po TLS. VPN sprawia, że hotel nie wie jakie strony odwiedzasz, ale dostawca VPN'a wie. #VPN
+- Hotelowa sieć może nie być bezpieczna jeśli, nie ma izolacji klientów #VLAN
+- Warto randomizować adresy MAC żeby unikać track'owania #tracking
+- VPN może się przydać do tego żeby można było wejść po SSH do VPSa. Ewentualnie można wystawić SSH na porcie 443 jeśli nie ma DPI na firewallu. 
+- Można skanować podsieć do której trafiasz w hotelu żeby zobaczyć czy nie ma kamer - iPhony da się trackować nawet jak są zablokowane. Jeśli są wyłączone to chyba nie #iphone
+- Air Tag'a można nalepić na rower - Apple może wysyłać powiadomienia jeśli zapomniałeś jakiegoś sprzętu.
+- można zespoof'ować numer na taki wewnętrzny służb ochraniających budynek i w ten sposób np. poprosić o otworzenie szlabanu 
+- zdradzanie swojej pozycji poprzez wstawianie zdjęć z wakacji może być niebezpieczne. Może oznaczać, że nie ma nas w domu. Lepiej poczekać parę dni. #location #geolocation
+- Automatyczna glokalizacja na sprzętach istnieje i trzeba brać to pod uwagę postując cos na socialach - może CI coś dopisać automatycznie lub w stopce, albo jeśli wstawiasz na własną stronę to bazowo masz metadane #location #geolocation
+
+### odc. 50 - cyberwojna na Ukrainie
+-  Practical doomsday - książka o przetrwaniu
+- jeśli ddosujesz jakieś serwery rosyjskie, to jeśli odetną na poziomie sieciowym np BGP to **obciążasz tylko własną infrastrukturę**  #bgp #ddos
+- zamiast strony banku lepiej ddosowac jakieś API bankowe albo API na styku jakiś integracji, bo wywalenie strony nie sprawia że wywalisz bank #ddos
+- nawet jeśli dowiesz wrogi interfejs wystawiony na świat dotyczący gazu albo wody i wyłączysz coś to istnieją dodatkowe mechanizmy bezpieczeństwa.
+- często wystawione na świat rzeczy to honeypoty, więc należy uważać, żeby nie spalić swoich exploitów
+- nieodpowiedzialne włamania mogą doprowadzić do zaorania systemu na którym wcześniej siedziały jakieś służby z zainstalowanym malware'em ( brak koordynacji jest problemem, a koordynacja ludzi niezwiązanych ze sobą jest trudna) #coorination #exploit #malware
+- Ukraińcy włamali się na stronę z newsami ruskimi i podali informacje o stratach rosyjskich, po czym ściągnęli szybko te informacje udając cenzurę tego newsa i był lepszy impact #ukraine #social_engineering
+- Tineye - to wyszukiwarka wstecznego obrazu z AI #AI #image_search
+- Pimeyes - to wyszukiwarka wstecznego obrazu **twarzy** z AI  #AI #image_search
+- AI wyszukiwarka zdjęć - jeśli zdjęcie którym wyszukujesz zostało zmodyfikowane to możesz je pociąć i zmieniać warstwy żeby znaleźć na tyle podobne do oryginału że AI to znajdzie - program który automatyzowałby ten proces to niezły pomysł na #startup
+- w atakach ransomware są często wykorzystywani pracownicy danej firmy
+- Baofeng - firma produkująca krótkofalówki i radiotelefony
+
+### odc.49 - o spoofingu rozmów telefonicznych
+- Spoofing na twój numer może spowodować zarekwirowanie przez policję twoich rzeczy  #law
+- Phishing – metoda oszustwa, w której przestępca podszywa się pod inną osobę lub instytucję w celu wyłudzenia poufnych informacji (np. danych logowania, danych karty kredytowej), zainfekowania komputera szkodliwym oprogramowaniem czy też nakłonienia ofiary do określonych działań. Jest to rodzaj ataku opartego na inżynierii społecznej. #phising
+- Smshing - phishing poprzez SMS
+- Caller ID -Caller ID is a widely used phone system feature that identifies an incoming caller by a name and phone number. The feature isn't perfect, and it can sometimes misrepresent a caller's identity. But for the most part, caller ID is a valuable piece of information. It's offered with just about every commercial phone provider, including landline, VoIP, and mobile phone services. #caller_id #voip
+- Caller ID Spoofing - Podszywanie się ma miejsce, gdy dzwoniący celowo fałszuje informacje przesyłane do wyświetlacza identyfikatora dzwoniącego, aby ukryć swoją tożsamość. Oszuści często stosują podszywanie się pod sąsiadów, więc wydaje się, że połączenie przychodzące pochodzi z lokalnego numeru lub podszywają się pod numer firmy lub agencji rządowej, którą możesz już znać i której możesz zaufać. #spoofing
+- Da się ustawić dowolne więc caller id i użyć czyjegoś numeru - podatny jest tak zwany system sygnalizacji 7, bo mechanizmy uwierzytelnienia i autoryzacji tam nie istnieją 
+- **PBX** (od ang. _private branch exchange_), **centrala abonencka** – centrala telefoniczna będąca własnością i zarządzana przez użytkownika, zwykle przedsiębiorstwo lub instytucję, tworząca wewnętrzną sieć telefoniczną przedsiębiorstwa i połączona najczęściej kilkoma liniami z centralą operatora telekomunikacyjnego. Centrala PBX umożliwia zatrzymanie w sieci telefonicznej przedsiębiorstwa wewnętrznych rozmów pracowników przedsiębiorstwa, a jednocześnie obsługę normalnego ruchu telefonicznego, to znaczy rozmów przychodzących z zewnątrz przedsiębiorstwa i rozmów wychodzących na zewnątrz. #pbx
+- PBX'a każdy może postawić u siebie 
+- Anonimizacja numeru pozwala na zablokowanie wyświetlania się caller ID #anonymization 
+- Chyba billingi sprawiają, że można sprawę spoofingu wyjaśnić, bo widać na bilingu danej osoby czy jakieś połączenie było wykonywane.
+- Jeśli jakieś połączenie przychodzi z twojego numeru i rekwiruje ci to policja, to twój operator może powiedzieć czy ty wykonywałeś dane połączenie właśnie poprzez billing
+- Spoofing numeru telefonu uwiarygadnia przestępcę np. że dzwoni np. bank ponieważ da się też podmienić nazwę 
+- Jak przychodzi połączenie do danego operatora to widzi on tylko poprzedni hop a nie to od kogo to połączenie przyszło ( analogia do głuchego telefonu ) 
+- Jeśli jest spoofed call do szpitala i numer pochodzi np. z Orange, a telefonie szpitala obsługuje T-Mobile, to policja pyta T-mobile, T-mobile mówi skąd przyszło połączenie i zwykle jest to zza granicy - operatorzy zza granicy nie udzielą ci takiej informacji. Ten Orange oznacza tylko, że numer, który się wyświetla jest z Orange (caller id). Faktyczny numer to jakiś zagraniczny. #scam
+- Jeśli jesteś w roamingu za granicą to właśnie tak to działa że twój numer przychodzi zza granicy mimo że masz u polskiego operatora numer, więc oznacza to, że takie numery muszą być w większości obsługiwane
+- Jak wykonujesz połączenie nawet do tego samego miasta to może być routowane z różnych powodów przez zagranicę. 
+- Jest dużo takich wyjątków i to utrudnia sprawę zablokowania takich scam'ów #scam
+- Nawet jeśli jeden operator w Polsce obsłuży takie case'y, to połączenie i tak przyjdzie przez innego operatora, bo tak działa sieć telekomunikacyjna. Dopóki wszyscy się na to nie zgodzą to nie da się tego skutecznie zablokować. #operator
+- Istnieje rozwiązanie w stanach, które pozwala na to że pierwszy operator z którym łączy się telefon sprawdza caller id i instnieją certyfikaty, które pozwalają na stwierdzenie czy ktoś się podszywa czy nie 
+- są serwisy które nie wymagają weryfikacji czy dany numer należy do Ciebie (tak jak robi to Skype poprzez weryfikację SMS na ten numer którego próbujesz użyć)
+- SMS spoofing w praktyce mało występuje 
+- W smsach występuje coś takiego jak nadpis czyli chyba nazwa np. żabka, mBank #nadpis #name 
+- Flubot - jeden z malware, który wysyła się w smsach i zachęca do zainstalowania do aplikacji. Kradnie dane bankowe.
+
