@@ -1,0 +1,2 @@
+- Netscape - taka stara przeglądarka z windowsa 95 lub wcześniej
+- JavaScript na początku nazywał się LiveScript

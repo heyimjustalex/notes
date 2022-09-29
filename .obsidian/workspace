@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f1b104ae3f638b02",
+        "id": "2c1af98d13be8c97",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cookies.md",
-            "mode": "source",
+            "file": "Same Origin Policy.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#niebezpiecznik",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cookies.md",
+                "file": "Same Origin Policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cookies.md",
+                "file": "Same Origin Policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cookies.md"
+                "file": "Same Origin Policy.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f1b104ae3f638b02",
+  "active": "2c1af98d13be8c97",
   "lastOpenFiles": [
-    "HTTP.md",
     "Cookies.md",
-    "Niebezpiecznik - Podcast.md",
+    "Same Origin Policy.md",
+    "photos/Pasted image 20220929180944.png",
     "QUIC.md",
+    "Randomowe fakty informatyczne.md",
+    "HTTP.md",
+    "Niebezpiecznik - Podcast.md",
     "obsluga obsidiana.md",
-    "photos/quic-fig2.png",
-    "photos/Pasted image 20220927182020.png",
-    "photos/Pasted image 20220927174335.png",
-    "photos/Pasted image 20220926173913.png",
-    "photos/mcTKf.jpg"
+    "CORS.md",
+    "photos/Pasted image 20220929135704.png"
   ]
 }

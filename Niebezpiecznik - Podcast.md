@@ -45,7 +45,7 @@
 - zamiast strony banku lepiej ddosowac jakieś API bankowe albo API na styku jakiś integracji, bo wywalenie strony nie sprawia że wywalisz bank #ddos
 - nawet jeśli dowiesz wrogi interfejs wystawiony na świat dotyczący gazu albo wody i wyłączysz coś to istnieją dodatkowe mechanizmy bezpieczeństwa.
 - często wystawione na świat rzeczy to honeypoty, więc należy uważać, żeby nie spalić swoich exploitów
-- nieodpowiedzialne włamania mogą doprowadzić do zaorania systemu na którym wcześniej siedziały jakieś służby z zainstalowanym malware'em ( brak koordynacji jest problemem, a koordynacja ludzi niezwiązanych ze sobą jest trudna) #coorination #exploit #malware
+- nieodpowiedzialne włamania mogą doprowadzić do zaorania systemu na którym wcześniej siedziały jakieś służby z zainstalowanym malware'em ( brak koordynacji jest problemem, a koordynacja ludzi niezwiązanych ze sobą jest trudna) #coordination #exploit #malware
 - Ukraińcy włamali się na stronę z newsami ruskimi i podali informacje o stratach rosyjskich, po czym ściągnęli szybko te informacje udając cenzurę tego newsa i był lepszy impact #ukraine #social_engineering
 - Tineye - to wyszukiwarka wstecznego obrazu z AI #AI #image_search
 - Pimeyes - to wyszukiwarka wstecznego obrazu **twarzy** z AI  #AI #image_search
