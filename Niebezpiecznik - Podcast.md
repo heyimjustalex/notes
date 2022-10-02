@@ -24,7 +24,8 @@
 - Housarlock blokada do drzwi, albo jakiś rygiel pod drzwi, żeby ktoś nie wszedł kiedy się kąpiesz 
 - Co kilka dni obsługa hotelu wchodzi niezależnie czy masz wywieszona jakaś kartkę czy nie, żeby sprawdzić czy nikt nie umarł
 - Można zostawić jakieś urządzenie monitorujące jak wychodzimy z hotelu. Nie możesz publikować takich nagrań. 
-- Możesz zostawić pokruszone czipsy na laptopie i zrobić zdjęcie żeby zobaczyć czy laptop był ruszany. Najlepiej żeby laptop był w sejfie, bo tak to sprzątaczka mogła to zrobić. - można też malować śrubki lakierem do paznokci 
+- Możesz zostawić pokruszone czipsy na laptopie i zrobić zdjęcie żeby zobaczyć czy laptop był ruszany. Najlepiej żeby laptop był w sejfie, bo tak to sprzątaczka mogła to zrobić. 
+- można też malować śrubki lakierem do paznokci 
 - Pendrive powinien mieć szyfrowaną partycję #encryption
 - Zgubienie pendrive to najczęstsza przyczyna wycieku danych #data_leak
 - Pendrive można zaszyfrować z użyciem Veracrypt, wtedy możesz odtworzyć na każdym systemie #encryption 
@@ -72,7 +73,7 @@
 - Jak wykonujesz połączenie nawet do tego samego miasta to może być routowane z różnych powodów przez zagranicę. 
 - Jest dużo takich wyjątków i to utrudnia sprawę zablokowania takich scam'ów #scam
 - Nawet jeśli jeden operator w Polsce obsłuży takie case'y, to połączenie i tak przyjdzie przez innego operatora, bo tak działa sieć telekomunikacyjna. Dopóki wszyscy się na to nie zgodzą to nie da się tego skutecznie zablokować. #operator
-- Istnieje rozwiązanie w stanach, które pozwala na to że pierwszy operator z którym łączy się telefon sprawdza caller id i instnieją certyfikaty, które pozwalają na stwierdzenie czy ktoś się podszywa czy nie 
+- Istnieje rozwiązanie w stanach, które pozwala na to że pierwszy operator z którym łączy się telefon sprawdza caller id i istnieją certyfikaty, które pozwalają na stwierdzenie czy ktoś się podszywa czy nie 
 - są serwisy które nie wymagają weryfikacji czy dany numer należy do Ciebie (tak jak robi to Skype poprzez weryfikację SMS na ten numer którego próbujesz użyć)
 - SMS spoofing w praktyce mało występuje 
 - W smsach występuje coś takiego jak nadpis czyli chyba nazwa np. żabka, mBank #nadpis #name 

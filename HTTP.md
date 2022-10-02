@@ -67,7 +67,7 @@ W przeważającej większości nagłówki są automatycznie ustawiane przez serw
 		- **General Header** - These header fields have general applicability for both request and response messages.
 		- **Request Header** -These header fields have applicability only for request messages.
 		- **Response Header** - These header fields have applicability only for response messages.
-		- **Entity Header** -These header fields have applicability only for response messages.
+		- **Entity Header** - Zawierają informacje na temat przeysyłanego body
 	
 	- Podstawowe nagłówki:
 	
