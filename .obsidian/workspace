@@ -7,19 +7,11 @@
         "id": "2c1af98d13be8c97",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "photos/Pasted image 20221002200904.png"
-          }
-        }
-      },
-      {
-        "id": "d20b707017e8357d",
-        "type": "leaf",
-        "state": {
-          "type": "image",
-          "state": {
-            "file": "photos/Pasted image 20221002200904.png"
+            "file": "JWT.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -85,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/Pasted image 20221002200904.png",
+                "file": "JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/Pasted image 20221002200904.png",
+                "file": "JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/Pasted image 20221002200904.png"
+                "file": "JWT.md"
               }
             }
           }
@@ -138,15 +130,15 @@
   },
   "active": "8fbd993d8eafff09",
   "lastOpenFiles": [
-    "photos/Pasted image 20221002201059.png",
-    "photos/Pasted image 20221002200904.png",
+    "Randomowe fakty informatyczne.md",
+    "photos/Pasted image 20220926173913.png",
+    "Cookies.md",
+    "photos/Pasted image 20221003180243.png",
     "JWT.md",
     "CORS.md",
+    "photos/Pasted image 20221003091715.png",
+    "Same Origin Policy.md",
     "HTTP.md",
-    "Cookies.md",
-    "QUIC.md",
-    "photos/Pasted image 20220929223557.png",
-    "Niebezpiecznik - Podcast.md",
-    "obsluga obsidiana.md"
+    "photos/Pasted image 20221002200904.png"
   ]
 }
