@@ -89,3 +89,10 @@ Po 15 minutach klient musi odnowić i wtedy odpytywana jest baza po stronie back
 ![[Pasted image 20221003180737.png]]
 
 To podejście łączy zalety JWT bo działa optymalniej bo nie odpytuje co chwila bazy jak w przypadku sesji oraz w przypadku utraty tokenu jest możliwość jego modyfikacji poprzez unieważnienie refresh token w bazie. 
+
+### Klucze
+Powinny być przechowywane jako zmienne systemowe, a nie w kodzie, bo to niebezpieczne.
+
+### Plusy i minusy JWT
+
+![[Pasted image 20221003185912.png]]

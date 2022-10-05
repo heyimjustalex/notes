@@ -128,8 +128,13 @@ Inne implementacje mogą używaj innych storage w przeglądarce:
 Zwykle wyczyszczenie wszystkiego w cache i storage wystarcza. Przeglądarka -> Clear all. Ale chyba jak ip śledzą albo fingerprint przeglądarki to chyba nie da się tego pozbyć.
 
 - **Third-party Cookie** - używane do trackowania, ustawiane przez requesty wykonywane przez jedną stronę do innych stron. Czyli cookie ustawione przez witrynę x.pl, gdy przeglądasz witrynę y.pl Widać to po wpisach innych domen w storage cookie, niż ta na której jesteś:
-  
+ 
   ![[Pasted image 20220928204739.png]]
+
+Jeśli na stronie example.com jest reklama np. z Facebooka, to działa to w następujący sposób:
+Jeśli masz ustawione cookie z Facebooka z parametrem same-site ustawionym na none, to podczas ładowania reklamy twoje cookies z Facebook'a zostaną wysłane facebookowi. Do requesta reklamy mogą zostać dołączone informacje na temat tego czego szukałeś na stronie example.com, żeby zasugerować Ci później reklamy. Strona example.com nie ma wiedzy o tym kim jesteś, ale Facebook ma i będzie wiedział co wyszukiwałeś i jak się nazywasz.
+
+Same-site musi być na none, żeby można było przesłać takie cookie z origin example.com. Domyślna polityka przeglądarek zmienila się na Lax, więc trzeba to jawnie deklarować przy set-cookie po stronie serwera.
   
 - **HTTPonly** - cookie, które mogą być ustawiane tylko z poziomu serwera i przeglądarka nie może ich odczytać, co sprawia, że można przechowywać SESSID i jeśli będzie atak XSS to i tak nie da się oczytać takiego cookie poprzez document.cookie, choć widać to z poziomu przeglądarki. Dobre dla tokenów i sessid, słabe np. do przechowywania score w grze, bo nie da się odczytać.
 
@@ -144,3 +149,6 @@ Ustawiony jest parametr HTTP lub w Firefox HTTPonly
 
 Niewidoczne w document.cookie
 ![[Pasted image 20220928203934.png]]
+
+
+

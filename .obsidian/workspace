@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JWT.md",
-            "mode": "source",
+            "file": "Cookies.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT.md",
+                "file": "Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT.md",
+                "file": "Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JWT.md"
+                "file": "Cookies.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8fbd993d8eafff09",
+  "active": "2c1af98d13be8c97",
   "lastOpenFiles": [
+    "CORS.md",
+    "HTTP.md",
+    "JWT.md",
+    "obsluga obsidiana.md",
+    "Same Origin Policy.md",
+    "QUIC.md",
+    "Cookies.md",
     "Randomowe fakty informatyczne.md",
     "photos/Pasted image 20220926173913.png",
-    "Cookies.md",
-    "photos/Pasted image 20221003180243.png",
-    "JWT.md",
-    "CORS.md",
-    "photos/Pasted image 20221003091715.png",
-    "Same Origin Policy.md",
-    "HTTP.md",
-    "photos/Pasted image 20221002200904.png"
+    "photos/Pasted image 20221003180243.png"
   ]
 }
