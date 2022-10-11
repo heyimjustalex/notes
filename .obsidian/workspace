@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2c1af98d13be8c97",
+        "id": "4c531ca48784201d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cookies.md",
-            "mode": "preview",
+            "file": "Same Origin Policy.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cookies.md",
+                "file": "Same Origin Policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cookies.md",
+                "file": "Same Origin Policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cookies.md"
+                "file": "Same Origin Policy.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "2c1af98d13be8c97",
+  "active": "8fbd993d8eafff09",
   "lastOpenFiles": [
-    "CORS.md",
-    "HTTP.md",
-    "JWT.md",
+    "NBD.md",
     "obsluga obsidiana.md",
-    "Same Origin Policy.md",
-    "QUIC.md",
-    "Cookies.md",
+    "photos/Pasted image 20221011113917.png",
     "Randomowe fakty informatyczne.md",
-    "photos/Pasted image 20220926173913.png",
-    "photos/Pasted image 20221003180243.png"
+    "photos/Pasted image 20221011114533.png",
+    "Same Origin Policy.md",
+    "JWT.md",
+    "HTTP.md",
+    "Cookies.md",
+    "CORS.md"
   ]
 }
