@@ -7,9 +7,11 @@
         "id": "4c531ca48784201d",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "photos/Pasted image 20221011140843.png"
+            "file": "NBD.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/Pasted image 20221011140843.png",
+                "file": "NBD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/Pasted image 20221011140843.png",
+                "file": "NBD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/Pasted image 20221011140843.png"
+                "file": "NBD.md"
               }
             }
           }
@@ -126,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8fbd993d8eafff09",
+  "active": "4c531ca48784201d",
   "lastOpenFiles": [
-    "NBD.md",
+    "CORS.md",
+    "Cookies.md",
     "HTTP.md",
-    "JWT.md",
     "obsluga obsidiana.md",
+    "NBD.md",
+    "JWT.md",
+    "photos/Pasted image 20221011140843.png",
     "QUIC.md",
     "Same Origin Policy.md",
-    "photos/Pasted image 20221011113917.png",
-    "Randomowe fakty informatyczne.md",
-    "photos/Pasted image 20221011114533.png",
-    "Cookies.md"
+    "photos/Pasted image 20221011113917.png"
   ]
 }
